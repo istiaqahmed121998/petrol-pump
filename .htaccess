@@ -1,0 +1,14 @@
+# Process all files as PHP by default
+DefaultType application/x-httpd-php
+# Fix sub-directory requests by allowing 'index' as a DirectoryIndex value
+DirectoryIndex / index.html
+DirectoryIndex about about.html
+DirectoryIndex contact contact.html
+
+# Force the domain to load with the www subdomain prefix
+# If the request doesn't start with www...
+RewriteCond %{HTTP_HOST}   !^www\.sadekfillingstation\.com [NC]
+# And the site name isn't empty
+RewriteCond %{HTTP_HOST}   !^$
+# Finally rewrite the request: end of rules, don't escape the output, and force a 301 redirect
+RewriteRule ^/?(.*)         https://www.sadekfillingstation.com/$1 [L,R,NE]

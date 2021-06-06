@@ -1,0 +1,2 @@
+[01-May-2021 10:58:25 Asia/Dhaka] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/sadegfhp/public_html/main/phpMailer/PHPMailerAutoload.php on line 45
+[02-Jun-2021 13:19:03 Asia/Dhaka] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/sadegfhp/public_html/main/phpMailer/PHPMailerAutoload.php on line 45

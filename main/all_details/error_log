@@ -1,0 +1,6 @@
+[26-Jan-2021 15:46:20 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/sadegfhp/public_html/main/db.php on line 23
+[26-Jan-2021 15:46:20 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/sadegfhp/public_html/main/db.php on line 23
+[26-Jan-2021 15:46:28 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/sadegfhp/public_html/main/db.php on line 23
+[21-Feb-2021 00:21:56 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/sadegfhp/public_html/main/db.php on line 23
+[21-Feb-2021 00:22:02 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/sadegfhp/public_html/main/db.php on line 23
+[03-Apr-2021 12:02:11 Asia/Dhaka] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/sadegfhp/public_html/main/phpMailer/PHPMailerAutoload.php on line 45
